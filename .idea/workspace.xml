@@ -4,14 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="126a8b2a-96c0-40a8-a992-a5ec06b09e1b" name="Changes" comment="" />
+    <list default="true" id="126a8b2a-96c0-40a8-a992-a5ec06b09e1b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/OnlinerNavigation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/OnlinerNavigation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/page_object/AbstractPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page_object/AbstractPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/page_object/CatalogPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page_object/CatalogPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/page_object/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page_object/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webDriver/WebDriverDiscovery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/webDriver/WebDriverDiscovery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/it_academy/onliner/catalog_page/EachElementOfAccessoriesContainingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/it_academy/onliner/catalog_page/EachElementOfAccessoriesContainingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/it_academy/onliner/catalog_page/ListItemsOfComputersAndNetsExistingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/it_academy/onliner/catalog_page/ListItemsOfComputersAndNetsExistingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/it_academy/onliner/catalog_page/MainMenuItemsExistingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/it_academy/onliner/catalog_page/MainMenuItemsExistingTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2C4jdrBQKkWsXxOI46KPksBOvOv" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -22,9 +44,104 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/olapo/AppData/Local/Temp/SeleniumProject/src/test/resources",
+    "settings.editor.selected.configurable": "File.Encoding"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\olapo\AppData\Local\Temp\SeleniumProject\src\test\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.MainMenuItemsExistingTest">
+    <configuration name="EachElementOfAccessoriesContainingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.it_academy.onliner.catalog_page.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.it_academy.onliner.catalog_page" />
+      <option name="MAIN_CLASS_NAME" value="com.it_academy.onliner.catalog_page.EachElementOfAccessoriesContainingTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ListItemsOfComputersAndNetsExistingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.it_academy.onliner.catalog_page.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.it_academy.onliner.catalog_page" />
+      <option name="MAIN_CLASS_NAME" value="com.it_academy.onliner.catalog_page.ListItemsOfComputersAndNetsExistingTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ListItemsOfComputersAndNetsExistingTest.testIsExistNamesOfLinkItemOnCatalogPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.it_academy.onliner.catalog_page.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.it_academy.onliner.catalog_page" />
+      <option name="MAIN_CLASS_NAME" value="com.it_academy.onliner.catalog_page.ListItemsOfComputersAndNetsExistingTest" />
+      <option name="METHOD_NAME" value="testIsExistNamesOfLinkItemOnCatalogPage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainMenuItemsExistingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.it_academy.onliner.catalog_page.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.it_academy.onliner.catalog_page" />
+      <option name="MAIN_CLASS_NAME" value="com.it_academy.onliner.catalog_page.MainMenuItemsExistingTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rrr" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.it_academy.onliner.catalog_page.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.it_academy.onliner.catalog_page" />
+      <option name="MAIN_CLASS_NAME" value="com.it_academy.onliner.catalog_page.rrr" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MainMenuItemsExistingTest" />
+        <item itemvalue="JUnit.ListItemsOfComputersAndNetsExistingTest" />
+        <item itemvalue="JUnit.EachElementOfAccessoriesContainingTest" />
+        <item itemvalue="JUnit.ListItemsOfComputersAndNetsExistingTest.testIsExistNamesOfLinkItemOnCatalogPage" />
+        <item itemvalue="JUnit.rrr" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
