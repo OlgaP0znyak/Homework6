@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="126a8b2a-96c0-40a8-a992-a5ec06b09e1b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/OnlinerNavigation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/OnlinerNavigation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/page_object/AbstractPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page_object/AbstractPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/page_object/CatalogPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page_object/CatalogPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/page_object/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page_object/HomePage.java" afterDir="false" />
@@ -16,6 +14,7 @@
       <change beforePath="$PROJECT_DIR$/src/test/java/com/it_academy/onliner/catalog_page/EachElementOfAccessoriesContainingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/it_academy/onliner/catalog_page/EachElementOfAccessoriesContainingTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/it_academy/onliner/catalog_page/ListItemsOfComputersAndNetsExistingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/it_academy/onliner/catalog_page/ListItemsOfComputersAndNetsExistingTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/it_academy/onliner/catalog_page/MainMenuItemsExistingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/it_academy/onliner/catalog_page/MainMenuItemsExistingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/chromedriver.exe" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,23 +40,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/olapo/AppData/Local/Temp/SeleniumProject/src/test/resources",
-    "settings.editor.selected.configurable": "File.Encoding"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/olapo/IdeaProjects/Homework6&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\olapo\AppData\Local\Temp\SeleniumProject\src\test\resources" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\olapo\IdeaProjects\Homework6\src\test\resources" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.MainMenuItemsExistingTest">
-    <configuration name="EachElementOfAccessoriesContainingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumProject" />
+  <component name="RunManager" selected="JUnit.EachElementOfAccessoriesContainingTest (1)">
+    <configuration name="EachElementOfAccessoriesContainingTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Homework6" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.it_academy.onliner.catalog_page.*" />
@@ -71,8 +73,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListItemsOfComputersAndNetsExistingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumProject" />
+    <configuration name="EachElementOfAccessoriesContainingTest.testAccessoriesContainElements" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Homework6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.it_academy.onliner.catalog_page.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.it_academy.onliner.catalog_page" />
+      <option name="MAIN_CLASS_NAME" value="com.it_academy.onliner.catalog_page.EachElementOfAccessoriesContainingTest" />
+      <option name="METHOD_NAME" value="testAccessoriesContainElements" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ListItemsOfComputersAndNetsExistingTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Homework6" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.it_academy.onliner.catalog_page.*" />
@@ -86,8 +104,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListItemsOfComputersAndNetsExistingTest.testIsExistNamesOfLinkItemOnCatalogPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumProject" />
+    <configuration name="MainMenuItemsExistingTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Homework6" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.it_academy.onliner.catalog_page.*" />
@@ -95,9 +113,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.it_academy.onliner.catalog_page" />
-      <option name="MAIN_CLASS_NAME" value="com.it_academy.onliner.catalog_page.ListItemsOfComputersAndNetsExistingTest" />
-      <option name="METHOD_NAME" value="testIsExistNamesOfLinkItemOnCatalogPage" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="com.it_academy.onliner.catalog_page.MainMenuItemsExistingTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -117,28 +134,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="rrr" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.it_academy.onliner.catalog_page.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.it_academy.onliner.catalog_page" />
-      <option name="MAIN_CLASS_NAME" value="com.it_academy.onliner.catalog_page.rrr" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EachElementOfAccessoriesContainingTest (1)" />
+        <item itemvalue="JUnit.ListItemsOfComputersAndNetsExistingTest (1)" />
+        <item itemvalue="JUnit.MainMenuItemsExistingTest (1)" />
+        <item itemvalue="JUnit.EachElementOfAccessoriesContainingTest.testAccessoriesContainElements" />
         <item itemvalue="JUnit.MainMenuItemsExistingTest" />
-        <item itemvalue="JUnit.ListItemsOfComputersAndNetsExistingTest" />
-        <item itemvalue="JUnit.EachElementOfAccessoriesContainingTest" />
-        <item itemvalue="JUnit.ListItemsOfComputersAndNetsExistingTest.testIsExistNamesOfLinkItemOnCatalogPage" />
-        <item itemvalue="JUnit.rrr" />
       </list>
     </recent_temporary>
   </component>

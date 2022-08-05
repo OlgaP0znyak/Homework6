@@ -2,30 +2,30 @@ package webDriver;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.remote.RemoteWebDriver;
-
 import java.time.Duration;
+import java.util.Optional;
 
 public class WebDriverDiscovery {
-    private static final ThreadLocal<RemoteWebDriver> remoteWebDriver = new ThreadLocal<>();
-
-    public WebDriverDiscovery() {
-        if (remoteWebDriver.get() == null) {
-            startBrowser();
-        }
+    private static final ThreadLocal<WebDriver> webDriverThreadLocal = new ThreadLocal<>();
+    private WebDriverDiscovery() {
     }
 
-    private void startBrowser() {
-        setWebDriver(new ChromeDriver());
-    }
+    public static void setDriver() {
 
-    private static void setWebDriver(RemoteWebDriver driver) {
-        remoteWebDriver.set(driver);
+        WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(15));
+        driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(40));
+        webDriverThreadLocal.set(driver);
     }
 
-    public WebDriver getWebDriver() {
-        return remoteWebDriver.get();
+    public static WebDriver getDriver() {
+        return webDriverThreadLocal.get();
+    }
+
+    public static void quitDriver() {
+        Optional.ofNullable(getDriver()).ifPresent(webDriver -> {
+            webDriver.quit();
+            webDriverThreadLocal.remove();
+        });
     }
 }

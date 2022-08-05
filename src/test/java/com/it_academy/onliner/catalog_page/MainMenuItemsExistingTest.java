@@ -1,15 +1,17 @@
 package com.it_academy.onliner.catalog_page;
 
 import com.it_academy.onliner.OnlinerNavigation;
+import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import page_object.CatalogPage;
 import page_object.HomePage;
+import webDriver.WebDriverDiscovery;
 
 import java.util.Arrays;
 import java.util.List;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.assertj.core.api.Assertions.assertThat;
 
 public class MainMenuItemsExistingTest {
     private final HomePage homePage = new HomePage();
@@ -20,6 +22,7 @@ public class MainMenuItemsExistingTest {
 
     @BeforeAll
     public static void navigateToOnliner() {
+        WebDriverDiscovery.setDriver();
         OnlinerNavigation.navigateToOnlinerHomePage();
     }
 
@@ -27,8 +30,14 @@ public class MainMenuItemsExistingTest {
     public void testIsExistNamesOfLinkItemOnCatalogPage() {
         homePage.clickOnHomePageLink(" аталог");
         List<String> actualNamesOfLinkItem = catalogPage.getNamesOfLinkItem();
-        homePage.closeBrowser();
-        //boolean isEqualExpectedAndActualNamesOfLinkItem = actualNamesOfLinkItem.equals(expectedNamesOfLinkItem);
-        assertEquals(expectedNamesOfLinkItem, actualNamesOfLinkItem, "Ќазвани€ пунктов меню на странице каталога не соответствуют ожидаемым");
+
+        assertThat(actualNamesOfLinkItem)
+                .as("Ќазвани€ пунктов меню на странице каталога не соответствуют ожидаемым")
+                .containsAll(expectedNamesOfLinkItem);
+    }
+
+    @AfterAll
+    public static void closeBrowser() {
+        WebDriverDiscovery.quitDriver();
     }
 }
